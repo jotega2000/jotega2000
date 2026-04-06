@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-  This PowerShell script remediates STIG WN11-AU-000585 by enabling failure auditing for process creation events and configuring command-line logging via the registry, then verifies both settings to ensure compliance
-    
-    .NOTES
+    This PowerShell script remediates STIG WN11-AU-000585 by enabling failure auditing for process creation events and configuring command-line logging via the registry, then verifies both settings to ensure compliance
+
+.NOTES
     Author          : Julius Otega
     LinkedIn        : https://www.linkedin.com/in/julius-otega-17632913/
     GitHub          : https://github.com/jotega2000
@@ -11,7 +11,7 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN11-AU-000585
+    STIG-ID         : WN10-AU-000585
 
 .TESTED ON
     Date(s) Tested  : 
@@ -23,8 +23,10 @@
     Put any usage instructions here.
     Example syntax:
     PS C:\> .\STIG-ID-WN10-AU-000585.ps1 
+#>
 
-#Run PowerShell as Administrator
+
+# Run PowerShell as Administrator
 
 Write-Host "Remediating: WN11-AU-000585 - Command line process auditing (Failure)..." -ForegroundColor Cyan
 
