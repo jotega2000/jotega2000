@@ -6,12 +6,12 @@
     Author          : Julius Otega
     LinkedIn        : https://www.linkedin.com/in/julius-otega-17632913/
     GitHub          : https://github.com/jotega2000
-    Date Created    : 2024-04-05
-    Last Modified   : 2024-04-05
+    Date Created    : 2026-04-05
+    Last Modified   : 2026-04-05
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN10-AU-000585
+    STIG-ID         : WN11-AU-000585
 
 .TESTED ON
     Date(s) Tested  : 
@@ -22,7 +22,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\STIG-ID-WN10-AU-000585.ps1 
+    PS C:\> .\STIG-ID-WN11-AU-000585.ps1 
 #>
 
 
